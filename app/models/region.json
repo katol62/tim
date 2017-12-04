@@ -1,0 +1,42 @@
+{
+  "name": "regions",
+  "rows" : {
+    "id": {
+      "type": "auto"
+    },
+    "cities": {
+      "type": "array",
+      "model": "city"
+    },
+    "pics": {
+      "type": "array",
+      "model": "region_photo",
+      "key": "regionId"
+    },
+    "name": {
+      "type": "text",
+      "max": 100
+    },
+    "poly": {
+      "type": "array",
+      "separ": ","
+    },
+    "brief": {
+      "type": "text",
+      "max": 200
+    },
+    "full": {
+      "type": "text"
+    },
+    "capitalId": {
+      "type": "int"
+    },
+    "active": {
+      "type": "flag",
+      "default": true
+    },
+    "pos": {
+      "type": "int"
+    }
+  }
+}

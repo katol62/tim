@@ -1,0 +1,18 @@
+#login
+    form(action="" method="POST")
+        a.logo(href="/admin")
+        h1= title
+        .form-group: input.login.form-control(
+            type="text"
+            name="login"
+            placeholder="Логин"
+            min="5"
+            autofocus
+        )
+        .form-group: input.passw.form-control(
+            type="password"
+            name="passw"
+            placeholder="Пароль"
+            min="6"
+        )
+        a.btn.btn-success(href="#") Войти

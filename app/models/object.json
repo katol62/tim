@@ -1,0 +1,60 @@
+{
+  "name": "objects",
+  "rows" : {
+    "id": {
+      "type": "auto"
+    },
+    "name": {
+      "type": "text",
+      "max": 100
+    },
+    "cityId": {
+      "type": "int"
+    },
+    "regionId": {
+      "type": "int"
+    },
+    "pics": {
+      "type": "array",
+      "model": "object_photo",
+      "key": "objectId"
+    },
+    "options": {
+      "type": "array",
+      "model": "object_option",
+      "key": "objectId"
+    },
+    "geo": {
+      "type": "array",
+      "separ": ","
+    },
+    "phone": {
+      "type": "text",
+      "max": 20
+    },
+    "brief": {
+      "type": "text",
+      "max": 200
+    },
+    "full": {
+      "type": "text"
+    },
+    "tags": {
+      "type": "text"
+    },
+    "times": {
+      "type": "array",
+      "separ": ","
+    },
+    "typeId": {
+      "type": "int"
+    },
+    "active": {
+      "type": "flag",
+      "default": true
+    },
+    "pos": {
+      "type": "int"
+    }
+  }
+}

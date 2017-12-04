@@ -1,0 +1,23 @@
+{
+  "name": "types",
+  "rows": {
+    "id": {
+      "type": "auto"
+    },
+    "groupId": {
+      "type": "int"
+    },
+    "options": {
+      "type": "array",
+      "model": "type_option",
+      "key": "typeId"
+    },
+    "title": {
+      "type": "text",
+      "max": 100
+    },
+    "icon": {
+      "type": "text"
+    }
+  }
+}

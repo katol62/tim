@@ -1,0 +1,16 @@
+{
+  "name": "users",
+  "rows": {
+    "id": {
+      "type": "int"
+    },
+    "email": {
+      "type": "text",
+      "max": 100
+    },
+    "password": {
+      "type": "text",
+      "length": 32
+    }
+  }
+}

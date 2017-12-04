@@ -1,0 +1,17 @@
+{
+  "name": "object_options",
+  "rows" : {
+    "id": {
+      "type": "auto"
+    },
+    "objectId": {
+      "type": "int"
+    },
+    "typeId": {
+      "type": "int"
+    },
+    "value": {
+      "type": "text"
+    }
+  }
+}

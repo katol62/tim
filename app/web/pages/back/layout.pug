@@ -1,0 +1,48 @@
+doctype html
+html
+    head
+        title='Карта гостя Крым и Севастополя - '+title
+        link(
+            type="text/css"
+            href="/static/css/bootstrap.css"
+            rel="stylesheet"
+        )
+        link(
+            type="text/css"
+            href="/static/css/bion.css"
+            rel="stylesheet"
+        )
+        link(
+            type="text/css"
+            href="/static/css/main.css"
+            rel="stylesheet"
+        )
+        link(
+            type="text/css"
+            href="/static/css/jquery-ui.css"
+            rel="stylesheet"
+        )
+        link(
+            type="text/css"
+            href="/static/css/font-awesome/css/font-awesome.min.css"
+            rel="stylesheet"
+        )
+
+        script(src='/static/js/jquery-3.2.1.min.js')
+        script(src='/static/js/jquery.form.js')
+        script(src='/static/js/jquery-ui.js')
+        script(src='/static/js/bootstrap.min.js')
+        script(src='https://api-maps.yandex.ru/2.1/?lang=ru_RU')
+        script(src='/static/js/functions.js')
+        script(src='/static/js/modules/map.js')
+        script(src='/static/js/modules/times.js')
+        script(src='/static/js/modules/user.js')
+        script(src='/static/js/modules/screen.js')
+        script(src='/static/js/modules/ui.js')
+        script(src='/static/js/modules/photos.js')
+        script(src='/static/js/backoffice.js')
+    body
+        #loader
+            i.fa.fa-spinner.fa-5x.fa-spin
+        include guest
+        .container

@@ -1,0 +1,22 @@
+﻿{
+  "web": {
+    "port": 80,
+    "host": "188.225.77.228",
+    "host_name": "crimeanav.com",
+    "basedir": ""
+  },
+  "storage": {
+    "db": {
+      "host": "localhost",
+      "user": "ch21619_navi",
+      "password": "8181036",
+      "database": "ch21619_navi"
+    },
+    "cache": {
+      "enabled": false
+    },
+    "files": {
+      "upload_dir": "app/uploads/"
+    }
+  }
+}

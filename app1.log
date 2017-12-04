@@ -1,0 +1,104 @@
+ -----------------------------
+| BiOn application is running |
+ -----------------------------
+   
+Thu Sep 28 2017 19:49:21 GMT+0000 (UTC) [BION] [INFO] Cross-functions loaded!
+
+Thu Sep 28 2017 19:49:21 GMT+0000 (UTC) [BION] [INFO] Storage drivers loaded!
+Thu Sep 28 2017 19:49:21 GMT+0000 (UTC) [BION] [INFO] Business logic loaded!
+Thu Sep 28 2017 19:49:21 GMT+0000 (UTC) [DB] [INFO] DB connected!
+Thu Sep 28 2017 20:16:01 GMT+0000 (UTC)[DEBUG] "SHOW TABLES" query lead time: 13 msec
+Thu Sep 28 2017 20:16:01 GMT+0000 (UTC) [DB] [INFO] Ping..
+Thu Sep 28 2017 20:42:41 GMT+0000 (UTC)[DEBUG] "SHOW TABLES" query lead time: 7 msec
+Thu Sep 28 2017 20:42:41 GMT+0000 (UTC) [DB] [INFO] Ping..
+Thu Sep 28 2017 21:09:21 GMT+0000 (UTC)[DEBUG] "SHOW TABLES" query lead time: 4 msec
+Thu Sep 28 2017 21:09:21 GMT+0000 (UTC) [DB] [INFO] Ping..
+Thu Sep 28 2017 21:36:01 GMT+0000 (UTC)[DEBUG] "SHOW TABLES" query lead time: 3 msec
+Thu Sep 28 2017 21:36:01 GMT+0000 (UTC) [DB] [INFO] Ping..
+Thu Sep 28 2017 22:02:41 GMT+0000 (UTC)[DEBUG] "SHOW TABLES" query lead time: 6 msec
+Thu Sep 28 2017 22:02:41 GMT+0000 (UTC) [DB] [INFO] Ping..
+Thu Sep 28 2017 22:29:21 GMT+0000 (UTC)[DEBUG] "SHOW TABLES" query lead time: 3 msec
+Thu Sep 28 2017 22:29:21 GMT+0000 (UTC) [DB] [INFO] Ping..
+Thu Sep 28 2017 22:56:01 GMT+0000 (UTC)[DEBUG] "SHOW TABLES" query lead time: 5 msec
+Thu Sep 28 2017 22:56:01 GMT+0000 (UTC) [DB] [INFO] Ping..
+Thu Sep 28 2017 23:22:41 GMT+0000 (UTC)[DEBUG] "SHOW TABLES" query lead time: 3 msec
+Thu Sep 28 2017 23:22:41 GMT+0000 (UTC) [DB] [INFO] Ping..
+Thu Sep 28 2017 23:49:21 GMT+0000 (UTC)[DEBUG] "SHOW TABLES" query lead time: 5 msec
+Thu Sep 28 2017 23:49:21 GMT+0000 (UTC) [DB] [INFO] Ping..
+Fri Sep 29 2017 00:16:02 GMT+0000 (UTC)[DEBUG] "SHOW TABLES" query lead time: 2 msec
+Fri Sep 29 2017 00:16:02 GMT+0000 (UTC) [DB] [INFO] Ping..
+Fri Sep 29 2017 00:42:42 GMT+0000 (UTC)[DEBUG] "SHOW TABLES" query lead time: 3 msec
+Fri Sep 29 2017 00:42:42 GMT+0000 (UTC) [DB] [INFO] Ping..
+Fri Sep 29 2017 01:09:22 GMT+0000 (UTC)[DEBUG] "SHOW TABLES" query lead time: 4 msec
+Fri Sep 29 2017 01:09:22 GMT+0000 (UTC) [DB] [INFO] Ping..
+Fri Sep 29 2017 01:36:02 GMT+0000 (UTC)[DEBUG] "SHOW TABLES" query lead time: 3 msec
+Fri Sep 29 2017 01:36:02 GMT+0000 (UTC) [DB] [INFO] Ping..
+Fri Sep 29 2017 02:02:42 GMT+0000 (UTC)[DEBUG] "SHOW TABLES" query lead time: 4 msec
+Fri Sep 29 2017 02:02:42 GMT+0000 (UTC) [DB] [INFO] Ping..
+Fri Sep 29 2017 02:29:22 GMT+0000 (UTC)[DEBUG] "SHOW TABLES" query lead time: 5 msec
+Fri Sep 29 2017 02:29:22 GMT+0000 (UTC) [DB] [INFO] Ping..
+Fri Sep 29 2017 02:56:02 GMT+0000 (UTC)[DEBUG] "SHOW TABLES" query lead time: 4 msec
+Fri Sep 29 2017 02:56:02 GMT+0000 (UTC) [DB] [INFO] Ping..
+Fri Sep 29 2017 03:22:42 GMT+0000 (UTC)[DEBUG] "SHOW TABLES" query lead time: 3 msec
+Fri Sep 29 2017 03:22:42 GMT+0000 (UTC) [DB] [INFO] Ping..
+Fri Sep 29 2017 03:49:22 GMT+0000 (UTC)[DEBUG] "SHOW TABLES" query lead time: 3 msec
+Fri Sep 29 2017 03:49:22 GMT+0000 (UTC) [DB] [INFO] Ping..
+Fri Sep 29 2017 04:16:02 GMT+0000 (UTC)[DEBUG] "SHOW TABLES" query lead time: 3 msec
+Fri Sep 29 2017 04:16:02 GMT+0000 (UTC) [DB] [INFO] Ping..
+Fri Sep 29 2017 04:42:42 GMT+0000 (UTC)[DEBUG] "SHOW TABLES" query lead time: 3 msec
+Fri Sep 29 2017 04:42:42 GMT+0000 (UTC) [DB] [INFO] Ping..
+Fri Sep 29 2017 05:09:22 GMT+0000 (UTC)[DEBUG] "SHOW TABLES" query lead time: 4 msec
+Fri Sep 29 2017 05:09:22 GMT+0000 (UTC) [DB] [INFO] Ping..
+Fri Sep 29 2017 05:36:02 GMT+0000 (UTC)[DEBUG] "SHOW TABLES" query lead time: 3 msec
+Fri Sep 29 2017 05:36:02 GMT+0000 (UTC) [DB] [INFO] Ping..
+Fri Sep 29 2017 06:02:42 GMT+0000 (UTC)[DEBUG] "SHOW TABLES" query lead time: 4 msec
+Fri Sep 29 2017 06:02:42 GMT+0000 (UTC) [DB] [INFO] Ping..
+Fri Sep 29 2017 06:29:22 GMT+0000 (UTC)[DEBUG] "SHOW TABLES" query lead time: 4 msec
+Fri Sep 29 2017 06:29:22 GMT+0000 (UTC) [DB] [INFO] Ping..
+Fri Sep 29 2017 06:56:02 GMT+0000 (UTC)[DEBUG] "SHOW TABLES" query lead time: 7 msec
+Fri Sep 29 2017 06:56:02 GMT+0000 (UTC) [DB] [INFO] Ping..
+Fri Sep 29 2017 07:22:42 GMT+0000 (UTC)[DEBUG] "SHOW TABLES" query lead time: 2 msec
+Fri Sep 29 2017 07:22:42 GMT+0000 (UTC) [DB] [INFO] Ping..
+Fri Sep 29 2017 07:49:22 GMT+0000 (UTC)[DEBUG] "SHOW TABLES" query lead time: 2 msec
+Fri Sep 29 2017 07:49:22 GMT+0000 (UTC) [DB] [INFO] Ping..
+Fri Sep 29 2017 07:58:08 GMT+0000 (UTC) [ROUTER] [INFO] Page loading success: url: /admin, path: ../app/web/pages/back/layout
+Fri Sep 29 2017 08:16:02 GMT+0000 (UTC)[DEBUG] "SHOW TABLES" query lead time: 7 msec
+Fri Sep 29 2017 08:16:02 GMT+0000 (UTC) [DB] [INFO] Ping..
+Fri Sep 29 2017 08:42:42 GMT+0000 (UTC)[DEBUG] "SHOW TABLES" query lead time: 3 msec
+Fri Sep 29 2017 08:42:42 GMT+0000 (UTC) [DB] [INFO] Ping..
+Fri Sep 29 2017 09:09:22 GMT+0000 (UTC)[DEBUG] "SHOW TABLES" query lead time: 1 msec
+Fri Sep 29 2017 09:09:22 GMT+0000 (UTC) [DB] [INFO] Ping..
+Fri Sep 29 2017 09:36:02 GMT+0000 (UTC)[DEBUG] "SHOW TABLES" query lead time: 1 msec
+Fri Sep 29 2017 09:36:02 GMT+0000 (UTC) [DB] [INFO] Ping..
+Fri Sep 29 2017 10:02:42 GMT+0000 (UTC)[DEBUG] "SHOW TABLES" query lead time: 0 msec
+Fri Sep 29 2017 10:02:42 GMT+0000 (UTC) [DB] [INFO] Ping..
+Fri Sep 29 2017 10:29:22 GMT+0000 (UTC)[DEBUG] "SHOW TABLES" query lead time: 1 msec
+Fri Sep 29 2017 10:29:22 GMT+0000 (UTC) [DB] [INFO] Ping..
+Fri Sep 29 2017 10:56:02 GMT+0000 (UTC)[DEBUG] "SHOW TABLES" query lead time: 1 msec
+Fri Sep 29 2017 10:56:02 GMT+0000 (UTC) [DB] [INFO] Ping..
+Fri Sep 29 2017 11:22:42 GMT+0000 (UTC)[DEBUG] "SHOW TABLES" query lead time: 1 msec
+Fri Sep 29 2017 11:22:42 GMT+0000 (UTC) [DB] [INFO] Ping..
+Fri Sep 29 2017 11:49:23 GMT+0000 (UTC)[DEBUG] "SHOW TABLES" query lead time: 3 msec
+Fri Sep 29 2017 11:49:23 GMT+0000 (UTC) [DB] [INFO] Ping..
+Fri Sep 29 2017 12:16:03 GMT+0000 (UTC)[DEBUG] "SHOW TABLES" query lead time: 1 msec
+Fri Sep 29 2017 12:16:03 GMT+0000 (UTC) [DB] [INFO] Ping..
+Fri Sep 29 2017 12:42:43 GMT+0000 (UTC)[DEBUG] "SHOW TABLES" query lead time: 3 msec
+Fri Sep 29 2017 12:42:43 GMT+0000 (UTC) [DB] [INFO] Ping..
+Fri Sep 29 2017 13:09:23 GMT+0000 (UTC)[DEBUG] "SHOW TABLES" query lead time: 1 msec
+Fri Sep 29 2017 13:09:23 GMT+0000 (UTC) [DB] [INFO] Ping..
+Fri Sep 29 2017 13:36:03 GMT+0000 (UTC)[DEBUG] "SHOW TABLES" query lead time: 3 msec
+Fri Sep 29 2017 13:36:03 GMT+0000 (UTC) [DB] [INFO] Ping..
+Fri Sep 29 2017 14:02:43 GMT+0000 (UTC)[DEBUG] "SHOW TABLES" query lead time: 2 msec
+Fri Sep 29 2017 14:02:43 GMT+0000 (UTC) [DB] [INFO] Ping..
+Fri Sep 29 2017 14:29:23 GMT+0000 (UTC)[DEBUG] "SHOW TABLES" query lead time: 2 msec
+Fri Sep 29 2017 14:29:23 GMT+0000 (UTC) [DB] [INFO] Ping..
+Fri Sep 29 2017 14:56:03 GMT+0000 (UTC)[DEBUG] "SHOW TABLES" query lead time: 3 msec
+Fri Sep 29 2017 14:56:03 GMT+0000 (UTC) [DB] [INFO] Ping..
+Fri Sep 29 2017 15:22:43 GMT+0000 (UTC)[DEBUG] "SHOW TABLES" query lead time: 2 msec
+Fri Sep 29 2017 15:22:43 GMT+0000 (UTC) [DB] [INFO] Ping..
+Fri Sep 29 2017 15:49:23 GMT+0000 (UTC)[DEBUG] "SHOW TABLES" query lead time: 1 msec
+Fri Sep 29 2017 15:49:23 GMT+0000 (UTC) [DB] [INFO] Ping..
+Fri Sep 29 2017 16:16:03 GMT+0000 (UTC)[DEBUG] "SHOW TABLES" query lead time: 2 msec
+Fri Sep 29 2017 16:16:03 GMT+0000 (UTC) [DB] [INFO] Ping..
+Fri Sep 29 2017 16:42:43 GMT+0000 (UTC)[DEBUG] "SHOW TABLES" query lead time: 3 msec
+Fri Sep 29 2017 16:42:43 GMT+0000 (UTC) [DB] [INFO] Ping..

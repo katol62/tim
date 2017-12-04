@@ -1,0 +1,25 @@
+{
+  "name": "ipsleptsov",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "async": "^2.4.1",
+    "body-parser": "^1.17.2",
+    "express": "^4.15.3",
+    "express-fileupload": "^0.1.4",
+    "localize": "^0.4.7",
+    "lwip": "0.0.9",
+    "mysql": "^2.14.0",
+    "pg": "^6.4.1",
+    "pug": "^2.0.0-rc.2",
+    "redis": "^2.7.1",
+    "socket.io": "^2.0.3",
+    "underscore": "^1.8.3"
+  }
+}

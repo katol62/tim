@@ -1,0 +1,49 @@
+{
+  "name": "cities",
+  "rows" : {
+    "id": {
+      "type": "auto"
+    },
+    "name": {
+      "type": "text",
+      "max": 100
+    },
+    "regionId": {
+      "type": "int"
+    },
+    "pics": {
+      "type": "array",
+      "model": "city_photo",
+      "key": "cityId"
+    },
+    "brief": {
+      "type": "text",
+      "max": 200
+    },
+    "full": {
+      "type": "text"
+    },
+    "center": {
+      "type": "array",
+      "separ": ","
+    },
+    "poly": {
+      "type": "array",
+      "separ": ","
+    },
+    "radius": {
+      "type": "int"
+    },
+    "recs": {
+      "type": "array",
+      "model": "object"
+    },
+    "active": {
+      "type": "flag",
+      "default": true
+    },
+    "pos": {
+      "type": "int"
+    }
+  }
+}

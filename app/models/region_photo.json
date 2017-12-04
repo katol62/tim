@@ -1,0 +1,20 @@
+{
+  "name": "region_photos",
+  "rows" : {
+    "id": {
+      "type": "auto"
+    },
+    "regionId": {
+      "type": "int"
+    },
+    "name": {
+      "type": "text"
+    },
+    "props": {
+      "type": "text"
+    },
+    "pos": {
+      "type": "int"
+    }
+  }
+}

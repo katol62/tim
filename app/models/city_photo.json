@@ -1,0 +1,20 @@
+{
+  "name": "city_photos",
+  "rows" : {
+    "id": {
+      "type": "auto"
+    },
+    "cityId": {
+      "type": "int"
+    },
+    "name": {
+      "type": "text"
+    },
+    "props": {
+      "type": "text"
+    },
+    "pos": {
+       "type": "int"
+     }
+  }
+}

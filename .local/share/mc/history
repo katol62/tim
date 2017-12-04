@@ -1,0 +1,47 @@
+[ignoredirs]
+0=
+
+[start]
+0=/home/tim/
+
+[mc.shared.search]
+0=sql
+1=mysql.createConnection
+2=mysql.createPool
+3=throw er
+
+[name]
+0=events.js
+1=*
+
+[cmdline]
+0=pwd
+1=OB
+2=cd /var/log/mysql
+3=cd /etc/mysql
+4=less error.log
+5=less error.log.1.gz
+6=
+
+[Dir Hist New Right Panel]
+0=/home/tim
+1=/etc/mysql
+2=/etc/mysql/mysql.conf.d
+
+[Dir Hist New Left Panel]
+0=/home/tim/app/locals
+1=/home/tim/app/web
+2=/home/tim/app
+3=/home/tim/node_modules/mysql/lib/protocol
+4=/home/tim/node_modules/mysql/lib
+5=/home/tim/node_modules/mysql
+6=/home/tim/node_modules
+7=/home/tim/bion
+8=/home/tim/.npm
+9=/home/tim
+10=/home
+11=/
+12=/etc
+13=/etc/mysql
+14=/etc/mysql/mysql.conf.d
+15=/var/log/mysql

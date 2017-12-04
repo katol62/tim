@@ -1,0 +1,133 @@
+include mixins
+
+#alerts
+
+#admin_block.panel.panel-success
+    .panel-heading: img.logo(src="static/img/logo_small.png" alt= title)
+    .panel-body.list-group
+        each link, index in menu
+            a.list-group-item(href= link.url)= link.title
+
+#content
+    #views
+        .list_view.view.panel.panel-default
+            .header.panel-heading
+                a.btn.btn-warning.back(href="#"): i.fa.fa-arrow-left
+                h3.panel-title: span
+            .more-info.well.well-sm.hide
+                img.img-thumbnail.preview-image
+                p.desc
+            .list.panel-body
+                a.add.btn.btn-success(href="#"): i.fa.fa-plus
+                ul
+                a.add.btn.btn-success(href="#"): i.fa.fa-plus
+
+        .edit_view.view.panel.panel-default
+            .header.panel-heading
+                a.btn.btn-warning.back(href="#") <
+                h3.obj_title.panel-title: span
+                .types.btn-group
+                    a.current.btn.btn-info(href="#")
+                        i
+                        span.title Тип
+                    a.btn.btn-info.dropdown-toggle(href="#" data-toggle="dropdown" aria-expanded="false"): span.caret
+                    ul.dropdown-menu
+                        li.divider
+                        li: a.add(href="#") Добавить
+                a.save_object.btn.btn-success(href="#") Сохранить
+
+            .display.panel-body
+                .panel.panel-default
+                    .photos.panel-body
+                    .photo-load
+                        h4 Загрузка изображения
+                        .progress
+                            .progress-bar.progress-bar-success
+                form#obj_form
+                    ul.nav.nav-tabs
+                        li.active: a(href="#desc" data-toggle="tab") Описание
+                        li: a(href="#geo" data-toggle="tab") Гео
+                        li: a(href="#additionaly" data-toggle="tab") Дополнительно
+                        li.options_tab: a(href="#options" data-toggle="tab") Опции
+                    .tab-content(id="object_form")
+                        .tab-pane.fade.active.in(id="desc")
+                            +obj_text("brief", "Краткое описание", 3)
+                            +obj_text("full", "Полное описание", 5)
+
+                        .tab-pane.fade(id="geo")
+                            .map_block
+                                #map
+                                //a.act.btn.btn-info.active(href="#") Выкл
+                                a.clear.btn.btn-warning(href="#") Очистить
+                                .btn-group.btn-group-justified
+                                    a.pos.btn.btn-primary.active(href="#") Позиция
+                                    a.poly.btn.btn-primary(href="#") Полигон
+                        .tab-pane.fade(id="additionaly")
+                            .region.option.hide
+                                .inputs
+                                    +obj_select("capitalId", "Центральный город")
+                            .city.option.hide
+                                .inputs
+                                    +obj_input("radius", "Радиус пригорода")(type="number")
+                            .object.option.hide
+                                .inputs
+                                    +obj_input("phone", "Контактный телефон")(type="text")
+                                    +obj_input("tags", "Теги")(type="text")
+                                #times.panel.panel-info
+                                    .panel-heading: h3.panel-title Расписание
+                                    .panel-body
+                                        each day, num in days
+                                            .day.row
+                                                .col-lg-1: .name= day
+                                                .col-lg-5: .form-group: input.from.form-control(type="time" name="times["+num+"][from]")
+                                                .col-lg-1 &mdash;
+                                                .col-lg-5: .form-group: input.to.form-control(type="time" name="times["+num+"][to]")
+                        .tab-pane.fade(id="options")
+
+                form#photo_form(
+                    action="/photos/upload"
+                    method="POST"
+                    enctype="multipart/form-data"
+                )
+                    input#photo_file(type="file" name="photo")
+                    input#photo_type(type="hidden" name="type")
+                    input#photo_id(type="hidden" name="id")
+
+
++modal('types_modal', 'Редактирование типов', true)
+    form.form-horizontal(role="form" action="" method="POST")
+        ul.nav.nav-tabs
+            li.active: a(href="#type_props" data-toggle="tab") Свойства
+            li: a(href="#type_options" data-toggle="tab") Опции
+
+        br
+        .tab-content
+            .tab-pane.fade.active.in(id="type_props")
+                .form-group
+                    label.col-sm-3.control-label(for="type_group") Группа
+                    .col-sm-8: select#type_group.form-control(name="groupId")
+                        each group in groups
+                            option(value= group.id)= group.title
+
+                .form-group
+                    label.col-sm-3.control-label(for="type_title") Название
+                    .col-sm-8: input#type_title.form-control(type="text" name="title")
+                .form-group
+                    label.col-sm-3.control-label Иконка
+                    .col-sm-8.icons
+                        each icon in icons
+                            i.icon.fa.fa-lg(class= icon name= icon)
+                input#type_id(type="hidden" name="type_id")
+            .tab-pane.fade(id="type_options")
+                .list
+                a.add.btn.btn-block.btn-success(href="#"): i.fa.fa-plus.fa-lg
+
++modal('image_editor', '')
+    .image-frame
+        img.img-rounded(src="" alt="")
+        .frame-block
+            .frame.ui-widget-content
+    .photo-load
+    .buttons
+        a.save.btn.btn-success(href="#") Сохранить
+        a.del.btn.btn-primary(href="#") Удалить

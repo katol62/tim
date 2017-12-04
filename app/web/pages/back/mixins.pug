@@ -1,0 +1,51 @@
+mixin modal(id, title, footer)
+    .modal.fade(id= id): .modal-dialog: .modal-content
+        .modal-header
+            button.close(
+                type="button"
+                data-dismiss="modal"
+                aria-hidden="true"
+            ) &times;
+            h4.modal-title= title
+        .modal-body
+            if block
+                block
+        if footer
+            .modal-footer
+                button.btn.btn-default(
+                    type="button"
+                    data-dismiss="modal"
+                ) Отмена
+                button.btn.btn-primary(type="button") ОК
+
+mixin obj_text(id, title, rows)
+    .form-group
+        label.col-lg-2.control-label(for= id)= title
+        .col-lg-10: textarea.form-control(
+            id= id
+            name= 'obj['+id+']'
+            rows= rows
+        )
+
+mixin obj_input(id, title)
+    .form-group
+        label.col-lg-2.control-label(for= id)= title
+        .col-lg-10: input.form-control(
+            id= id
+            name= 'obj['+id+']'
+            type!=attributes.type
+        )
+
+mixin obj_select(id, title)
+    .form-group
+        label.col-lg-2.control-label(for= id)= title
+        .col-lg-10: select.form-control(id= id, name= 'obj['+id+']')
+            if block
+                block
+
+mixin obj_val(key, val)
+    input(
+        type="hidden"
+        name= key
+        value= val ? val : ''
+    )
